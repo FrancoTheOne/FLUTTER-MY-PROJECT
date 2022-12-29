@@ -7,10 +7,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: GestureDetector(
-        onTap: () => {print('hihi')},
+        onTap: () => {debugPrint('hihi')},
         child: Container(
           color: Colors.amber,
-          child: Center(
+          child: const Center(
             child: Text('Home'),
           ),
         ),
