@@ -30,14 +30,19 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   auto_route: ^5.0.4
+  crypto: ^3.0.2
   cupertino_icons: ^1.0.2
   dio: ^4.0.6
+  envied: ^0.3.0
   flutter:
     sdk: flutter
+  get_it: ^7.2.0
+  logger: ^1.1.0
 
 dev_dependencies:
   auto_route_generator: ^5.0.3
   build_runner: ^2.3.3
+  envied_generator: ^0.3.0
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter

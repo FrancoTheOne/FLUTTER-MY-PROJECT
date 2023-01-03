@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:my_poly_auction/service/service.dart';
 import 'package:my_poly_auction/src/routes/router.gr.dart';
 
 void main() {
+  setup();
   runApp(const MyApp());
 }
 
